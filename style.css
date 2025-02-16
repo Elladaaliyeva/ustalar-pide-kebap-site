@@ -135,6 +135,38 @@ footer {
     transition: transform 0.2s ease-in-out;
 }
 
-.contact-info img:hover {
-    transform: scale(1.2);
+/* Mobil Uyğunluğu */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .dropdown-menu {
+        position: relative;
+        width: 100%;
+    }
+
+    .gallery-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 sütunlu görünüş */
+    }
+
+    .gallery-container img {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
