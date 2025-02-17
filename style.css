@@ -1,9 +1,11 @@
 /* GENEL STİLLER */
-body {
+html, body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    width: 100%;
     background-color: #fffaf0;
+    overflow-x: hidden;
 }
 
 /* LOGO VE NAVBAR */
@@ -78,7 +80,7 @@ header {
     gap: 15px;
     justify-content: center;
     align-items: center;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 
 }
@@ -100,10 +102,11 @@ footer {
     background: linear-gradient(to right, #110800, #20201f);
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 20px 0;
     position: relative;
     width: 100%;
     bottom: 0;
+    margin-top: 30px;
 }
 
 /* Sosyal medya ikonları */
